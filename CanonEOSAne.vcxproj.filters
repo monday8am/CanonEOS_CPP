@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Class">
+      <UniqueIdentifier>{f427c056-25c3-4806-bd58-e7d03f442ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Command">
+      <UniqueIdentifier>{c32a99d5-7c46-4e71-8f0a-894c64e71579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{e5b5124f-2b49-42a9-b37b-18c3e2ad934d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EDSDK">
+      <UniqueIdentifier>{014f02f0-99a9-4d17-bb8c-331c48bc01f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraController.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraModelLegacy.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraEvent.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraEventListener.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraModel.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="EDSDK\EDSDK.h">
+      <Filter>Header Files\EDSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="EDSDK\EDSDKTypes.h">
+      <Filter>Header Files\EDSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="EDSDK\EDSDKErrors.h">
+      <Filter>Header Files\EDSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\DoEvfAFCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\GetPropertyDescCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\DownloadCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\DownloadEvfCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\DriveLensCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\EndEvfCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\GetPropertyCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\NotifyCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\CloseSessionCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\SaveSettingCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\StartEvfCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\SetCapacityCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\SetPropertyCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\PressShutterButtonCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\OpenSessionCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Command.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\TakePictureCommand.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\ActionEvent.h">
+      <Filter>Header Files\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\ActionSource.h">
+      <Filter>Header Files\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\ActionListener.h">
+      <Filter>Header Files\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Synchronized.h">
+      <Filter>Header Files\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Processor.h">
+      <Filter>Header Files\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Observer.h">
+      <Filter>Header Files\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Thread.h">
+      <Filter>Header Files\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CanonEOSAne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashRuntimeExtensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FREEventObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CanonEOSAne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libs\EDSDK.lib" />
+    <Library Include="Libs\FlashRuntimeExtensions.lib" />
+  </ItemGroup>
+</Project>
